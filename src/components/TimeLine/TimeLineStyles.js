@@ -1,6 +1,13 @@
 
 import styled from 'styled-components'
 
+export const Img = styled.img`
+  width:20%;
+  height:10%;
+  object-fit: cover;
+  overflow: hidden;
+`
+
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   background: #0F1624;
